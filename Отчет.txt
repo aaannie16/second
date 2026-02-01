@@ -1,0 +1,12 @@
+cd /d/GitRepo
+mkdir второй
+cd второй
+git init
+git config --global user.name "Ваше Имя"
+git config --global user.email "ваш@email.com"
+echo "Содержание тестового файла" > test.txt
+git add test.txt
+git commit -m "Первый коммит в репозитории"
+git remote add origin https://github.com/ваш_аккаунт/второй.git
+git remote -v
+git push -u origin master
