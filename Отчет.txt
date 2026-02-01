@@ -10,3 +10,8 @@ git commit -m "Первый коммит в репозитории"
 git remote add origin https://github.com/ваш_аккаунт/второй.git
 git remote -v
 git push -u origin master
+git add Отчет.txt
+git commit -m "Второй коммит в репозитории"
+git remote add origin https://github.com/ваш_аккаунт/второй.git
+git remote -v
+git push -u origin master
